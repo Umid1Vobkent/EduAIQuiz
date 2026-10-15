@@ -1,0 +1,17 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local Python environment/cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# User data: do not publish student results or uploaded library materials
+quiz_history.json
+materials/
+
+# Local backups
+old_app.py
+EduAIQuiz_app.py.bak
